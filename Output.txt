@@ -1,0 +1,81 @@
+------Server Side------
+PS C:\Users\Gagandeep\Downloads> javac ServerDemo.java                        
+PS C:\Users\Gagandeep\Downloads> java ServerDemo                              
+Server waiting for client....                                                 
+Socket Closed !!!s                                                            
+PS C:\Users\Gagandeep\Downloads> 
+------Client Side------          
+PS C:\Users\Gagandeep\Downloads> javac Client.java
+PS C:\Users\Gagandeep\Downloads> java Client
+
+***** Select Operation *****
+
+        1. Add Student
+        2. Delete Student
+        3. Search Student
+        4. Failed Student
+        5. Exit
+Enter choice: 1
+
+Enter Roll No - 1
+
+Enter Name - Gagandeep
+
+Enter Marks - 95
+
+Added Succesfully 1
+Current Students ->[Student [rollNo=1, name=Gagandeep, marks=95.0]]
+***** Select Operation *****
+
+        1. Add Student
+        2. Delete Student
+        3. Search Student
+        4. Failed Student
+        5. Exit
+Enter choice: 1
+
+Enter Roll No - 23
+
+Enter Name - Nandini
+
+Enter Marks - 85
+
+Added Succesfully 23
+Current Students ->[Student [rollNo=1, name=Gagandeep, marks=95.0], Student [rollNo=23, name=Nandini, marks=85.0]]
+***** Select Operation *****
+
+        1. Add Student
+        2. Delete Student
+        3. Search Student
+        4. Failed Student
+        5. Exit
+Enter choice: 3
+
+Enter rollNo to be searched : 1
+
+Searched Student -> Student [rollNo=1, name=Gagandeep, marks=95.0]
+***** Select Operation *****
+
+        1. Add Student
+        2. Delete Student
+        3. Search Student
+        4. Failed Student
+        5. Exit
+Enter choice: 1
+
+Enter Roll No - 60
+
+Enter Name - Troye
+
+Enter Marks - 30
+
+Added Succesfully 60
+Current Students ->[Student [rollNo=1, name=Gagandeep, marks=95.0], Student [rollNo=23, name=Nandini, marks=85.0], Student [rollNo=60, name=Troye, marks=30.0]]
+***** Select Operation *****
+
+        1. Add Student
+        2. Delete Student
+        3. Search Student
+        4. Failed Student
+        5. Exit
+Enter choice: 4
